@@ -1,0 +1,57 @@
+--//https://discord.com/invite/jErmFfMfQR OnTop
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Kitler_R BETA")
+
+local MainKillingCheats = PhantomForcesWindow:NewSection("Main")
+
+MainKillingCheats:CreateToggle("Auto Parry", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KITLER-R/Father/main/France"))()
+end)
+
+MainKillingCheats:CreateToggle("Manual Spam", function(value)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
+end)
+
+local MiscKillingCheats = PhantomForcesWindow:NewSection("Misc")
+
+MiscKillingCheats:CreateButton("Anti Afk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+    print("Voned ontop")
+end)
+
+MiscKillingCheats:CreateButton("Shaders", function()
+    loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'), true))()
+    print("Voned ontop")
+end)
+
+MiscKillingCheats:CreateButton("Fps Booster", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fps-booster-9504", true))()
+    print("Voned ontop")
+end)
+
+MiscKillingCheats:CreateButton("Fps Counter", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Baseplate-Fps-and-ping-Counter-Script-7186"))()
+    print("Voned ontop")
+end)
+
+local Credits = PhantomForcesWindow:NewSection("Credits")
+
+Credits:CreateButton("Made by Kitler", function()
+    print("Voned ontop")
+end)
+
+Credits:CreateButton("Assisted by Alxpox", function()
+    print("Voned ontop")
+end)
+
+Credits:CreateButton("Kitler_R Discord", function()
+    setclipboard("<https://discord.com/invite/jErmFfMfQR>")
+    print("Voned ontop")
+end)
+
+Credits:CreateButton("Alxpox Discord", function()
+    setclipboard("<https://discord.com/invite/jErmFfMfQR>")
+    print("Voned ontop")
+end)
