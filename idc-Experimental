@@ -594,6 +594,6 @@ task.spawn(function()
 end)
 
 initializate('nurysium_temp')
---Manual spam (basic ui)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KITLER-R/Father/main/Experiment"))()
+--Manual spam (basic ui by:NQXL)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
 print("Script is working")
