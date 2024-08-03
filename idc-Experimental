@@ -594,6 +594,13 @@ task.spawn(function()
 end)
 
 initializate('nurysium_temp')
---Manual spam (basic ui by:NQXL)
+local Toggle = AddToggle(Main, {
+  Name = "Manual Spam",
+  Default = false,
+  Callback = function(toggled)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
+end
+})
+
 print("Script is working")
