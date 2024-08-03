@@ -593,7 +593,7 @@ task.spawn(function()
 
 end)
 
-initializate('nurysium_temp')
+
 local Toggle = AddToggle(Main, {
   Name = "Manual Spam",
   Default = false,
@@ -602,5 +602,7 @@ local Toggle = AddToggle(Main, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/SlzAX17vGCub7iRKVmJid61Bg/main/KwKVzV5SgcFBd9fnpLr4lKCg6.lua"))()
 end
 })
+
+initializate('nurysium_temp')
 
 print("Script is working")
